@@ -16,19 +16,20 @@ function App() {
   const selectSendMessage = useSelector(selectSendMessageIsOpen);
   const user = useSelector(selectUser);
   const dispatch = useDispatch();
-
-  auth.onAuthStateChanged(function (user) {
-    if (user) {
-      // User is signed in.
-      dispatch(
-        signIn({
-          displayName: user.displayName,
-          email: user.email,
-          userPhotoUrl: user.photoURL,
-        })
-      );
-    }
-  });
+  useEffect(() => {
+    auth.onAuthStateChanged(function (user) {
+      if (user) {
+        // User is signed in.
+        dispatch(
+          signIn({
+            displayName: user.displayName,
+            email: user.email,
+            userPhotoUrl: user.photoURL,
+          })
+        );
+      }
+    });
+  }, []);
 
   return (
     <Router>

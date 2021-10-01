@@ -1,5 +1,5 @@
 .login {
-  background-color: #f2f2f2;
+  background-color: #f2f2ff;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -19,4 +19,5 @@
 .login__button {
   text-transform: none !important;
   width: 240px;
+  cursor: pointer;
 }

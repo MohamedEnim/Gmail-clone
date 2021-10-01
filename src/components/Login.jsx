@@ -7,6 +7,7 @@ import { signIn } from "../store/reducers/userSlice";
 
 function Login() {
   const dispatch = useDispatch();
+
   const signInUser = () => {
     auth
       .signInWithPopup(provider)
@@ -27,7 +28,8 @@ function Login() {
     <div className="login">
       <div className="login__container">
         <img
-          src="https://ssl.gstatic.com/ui/v1/icons/mail/rfr/logo_gmail_lockup_default_1x_r2.png"
+          //src="https://ssl.gstatic.com/ui/v1/icons/mail/rfr/logo_gmail_lockup_default_1x_r2.png"
+          src="https://logos-marques.com/wp-content/uploads/2021/03/Gmail-Embleme.png"
           alt=""
         />
         <div className="login__button">
