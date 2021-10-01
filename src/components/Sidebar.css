@@ -1,0 +1,33 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+
+  min-width: 260px;
+}
+
+.sidebar__addMsg {
+  padding: 20px 8px;
+}
+.sidebar__button {
+  border-radius: 50px !important;
+  background-color: white !important;
+  padding: 10px 15px !important;
+  text-transform: none !important;
+  width: 210px !important;
+  font-size: 17px !important;
+  font-weight: 549 !important;
+}
+
+.sidebar__button:hover {
+  box-shadow: 2px 4px 6px 3px rgba(0, 0, 0, 0.1) !important;
+  background-color: rgba(214, 212, 212, 0.1) !important;
+}
+
+.sidebar__footer {
+  display: flex;
+  justify-content: center;
+}
+.sidebar__footerIcons {
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,50 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid whitesmoke;
+  background-color: white;
+  height: 70px;
+}
+
+.header__left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 10px;
+}
+
+.header__left > img {
+  object-fit: contain;
+}
+
+.header__search {
+  display: flex;
+  flex: 0.7;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f1f3f4;
+  border-radius: 5px;
+  height: 50px;
+  padding: 5px;
+}
+
+.header__search > input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 10px;
+}
+
+.MuiIconButton-root {
+  margin: 2px !important;
+}

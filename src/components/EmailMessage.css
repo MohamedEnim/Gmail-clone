@@ -1,0 +1,64 @@
+.emailMessage {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  height: 70%;
+  max-width: 500px;
+  background-color: white;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  position: absolute;
+  bottom: 70px;
+  right: 15px;
+  box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.24);
+}
+
+.emailMessage__header {
+  display: flex;
+  flex: 0.1;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(49, 48, 48);
+  color: white;
+  padding: 10px;
+}
+
+.emailMessage > form {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.emailMessage > form > input {
+  height: 40px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid whitesmoke;
+}
+
+.emailMessage > form > textarea {
+  padding: 10px;
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 14px;
+}
+
+.emailMessage__message {
+  flex: 1 !important;
+}
+
+.emailMessage__footer {
+  padding: 10px;
+}
+
+.emailMessage__error {
+  font-size: 12px;
+  text-align: right;
+  color: red;
+}
+
+.emailMessage__button {
+  text-transform: none !important;
+}

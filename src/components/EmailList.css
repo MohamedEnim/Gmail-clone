@@ -1,0 +1,46 @@
+.emailList {
+  flex: 1;
+  padding: 0px 5px 0px 20px;
+  overflow: scroll;
+}
+
+.emailList__tools {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  height: 40px;
+  z-index: 999;
+  background-color: white;
+  padding-left: 7px;
+}
+
+.MuiIconButton-root {
+  padding: 6px !important;
+}
+
+.emailList__toolsLeft {
+  display: flex;
+  align-items: center;
+}
+
+.emailList__toolsRight {
+  display: flex;
+  align-items: center;
+}
+
+.emailList__sections {
+  display: flex;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  height: 50px;
+  background-color: white;
+}
+
+.emailList__list {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}

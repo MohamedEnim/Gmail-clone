@@ -1,0 +1,24 @@
+.emailListSection {
+  display: flex;
+  align-items: center;
+  color: gray;
+  width: 240px;
+  padding: 15px;
+  border-bottom-width: 0 !important;
+}
+
+.emailListSection--selected {
+  border-bottom-width: 2px !important;
+  background-color: whitesmoke;
+}
+
+.emailListSection > h3 {
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+.emailListSection:hover {
+  background-color: whitesmoke;
+  border-bottom-width: 3px !important;
+}

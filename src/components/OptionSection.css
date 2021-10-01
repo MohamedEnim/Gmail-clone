@@ -1,0 +1,39 @@
+.optionSection {
+  display: flex;
+  padding-left: 25px;
+  align-items: center;
+  color: gray;
+  height: 35px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  cursor: pointer;
+}
+
+.optionSection > h3 {
+  flex: 1;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+.optionSection > .MuiSvgIcon-root {
+  font-size: 20px !important;
+}
+
+.optionSection > p {
+  margin-right: 10px;
+}
+
+.selected--option {
+  background-color: #fcecec;
+  color: #c04b37;
+}
+
+.optionSection:hover {
+  background-color: whitesmoke;
+}
+
+.selected--option:hover {
+  background-color: #fcecec;
+  color: #c04b37;
+}
